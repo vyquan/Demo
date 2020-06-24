@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li>a{
+	color: white;
+}
+li>a:hover{
+	color: #0065C3;
+	background-color:#ffffff;
+}
+.img{
+	overflow: hidden;
+	font-size: 18px;
+	height: 150px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.img:hover .adb{
+
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.contri{
+	width: 150px;
+	color: white;
+}
+.contri:hover{
+	color: white;
+	font-weight: 500;
+}
+.sub{
+	color: white;
+	background-color: #0065C3;
+	font-size: 18px;
+	height: 30px;
+	width: 270px;
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.sub:hover{
+	color: #0065C3;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.buypr{
+	margin-top: 18px;
+	color: white;
+	font-weight: bold;
+	background-color: #0065C3;
+	font-size: 18px;
+	height: 30px;
+	width: 170px;
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.buypr:hover{
+	font-weight: bold;
+	color: #0065C3;
+	background-color: white;
+	border: 1 px solid white;
+	border-radius: 25px;
+}
+
+.imgBox
+    {
+		margin-left: 25px;
+      width: 270px;
+	  height: 270px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+    }
+.imgBox:hover{
+      -moz-box-shadow: 0 0 10px rgb(165, 165, 165);
+      -webkit-box-shadow: 0 0 10px rgb(165, 165, 165);
+	  box-shadow: 0 0 10px rgb(165, 165, 165);
+	  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	}
+
+.shw:hover{
+    -moz-box-shadow: 0 0 10px rgb(165, 165, 165);
+    -webkit-box-shadow: 0 0 10px rgb(165, 165, 165);
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+}
+
+.iconn{
+	margin-top: 25px;
+	width: 48px;
+	height: 48px;
+	margin-left: 10px;
+}
+.tw:hover
+    {
+      opacity: 0.2;
+      filter: alpha(opacity=30);
+	}
+	.yt:hover
+    {
+      opacity: 0.2;
+      filter: alpha(opacity=30);
+	}
+	.ig:hover
+    {
+      opacity: 0.2;
+      filter: alpha(opacity=30);
+	}
+	.fb:hover
+    {
+      opacity: 0.2;
+      filter: alpha(opacity=30);
+	}
+/* Dropdown Button */
+.dropbtn {
+	margin-top: 10px;
+	margin-bottom:10px ;
+	background-color: white;
+	color: #0065C3;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	border: 1px solid;
+	border-radius: 25px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	font-size: 14px;
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 170px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #2b86b1; color: white;}
+.go{
+	width: 120px;
+	font-weight: 500;
+	height: 35px;
+	color: #0065C3;
+	border: 1px solid #0065C3;
+	border-radius: 25px;
+	background-color: #ffffff;
+}
+.go1{
+	margin-top: 10px;
+	width: 50px;
+	font-weight: 500;
+	height: 35px;
+	color: #ffffff;
+	border: 1px solid #0065C3;
+	border-radius: 25px;
+	background-color: #2b86b1;
+}
+.go1:hover{
+	color: #0065C3;
+	border: 1px solid #0065C3;
+	border-radius: 25px;
+	background-color: #ffffff;
+}
+.icon{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 5px;
+	float: right;
+}
+.boxsearch{
+	position: absolute;
+	top: 64px;
+	background: none;
+	border: none;
+	width: 410px;
+	height: 40px;
+}
+.help{
+	position: absolute;
+	top: 300px;
+	left: 435px;
+	color: white;
+	width: 500px;	
+}
+.ser{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+}
+.sea{
+	width: 100px;
+	height: 37px;
+	margin-top: 42px;
+	margin-left: 20px;
+	border-radius: 25px;
+	border: none;
+	background-color: #03D2DF;
+	color: white;
+}
+.sea:hover{
+	border: 1px solid #03D2DF;
+	color: #03D2DF;
+	background-color: #ffffff;
+}
+.searmap{
+	position: absolute;
+	top: 670px;
+	left: 168px;
+}
+.form-control{
+	width: 400px;
+}
+.contac{
+	width: 40px;
+	height: 40px;
+	margin-right: 40px;
+	margin-left: 50px;
+}
+.tablink {
+	font-weight: bold;
+	margin-top: 20px;
+	background-color:#0065C3 #008CBA;
+	color: #0065C3;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+  }
+  
+  .tablink:hover {
+	color: #0065C3;
+	background-color: white;
+	border: 1px solid #0065C3;
+  }
+
+  .tabcontent {
+	color: white;
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+  }
+.imgcpn{
+	width: 260px;
+	height:153px;
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: 233.33px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.col-sm-4:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.a:hover{
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.adb{
+	position: absolute;
+	color: black;
+	background-color: #0065C3;
+	font-size: 8px;
+	text-align: left;
+	width: 255px;
+	height: 255px;
+	top: 57px;
+	left: 0px;
+	transition: .5s;
+}
