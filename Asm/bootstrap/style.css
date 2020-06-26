@@ -190,6 +190,7 @@ li>a:hover{
 	height: 35px;
 	margin-bottom: 5px;
 	float: right;
+	margin-left: 8px;
 }
 .boxsearch{
 	position: absolute;
@@ -294,10 +295,12 @@ li>a:hover{
 .col-sm-4:hover .overlay {
   bottom: 0;
   height: 100%;
+  opacity: 0.85;
 }
 
 .text {
-  color: white;
+  font-weight: bold;
+  color: whitesmoke;
   font-size: 20px;
   position: absolute;
   top: 50%;
